@@ -1,0 +1,193 @@
+/* common */
+.text-capital {
+  text-transform: uppercase;
+  color: black;
+}
+
+.navbar-shadow {
+  box-shadow: 0px 15px 25px 0px rgba(240, 240, 240, 0.91);
+}
+
+.center-column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.center-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.home-title {
+    margin-top: 30px;
+    font-size: 24px;
+}
+
+.home-subtitle {
+    /* margin-top: 30px; */
+    font-size: 16px;
+}
+
+.default-menu {
+    float: right;
+    padding: 10px;
+    background-color: yellow;
+    color: black;
+    border: none;
+    border-radius: 10px;
+    font-size: 12px;
+}
+
+.select-date-content {
+    background-color: lightgray;
+    height: 290px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.select-date-content .select-date-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.select-date-content .select-date-item h4 {
+    font-size: 16px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.select-date-item-selected {
+    background-color: white;
+    padding: 3px;
+    border-radius: 10px;
+}
+
+.select-custom-date {
+    width: 150px;
+    height: 50px;
+}
+
+.select-custom-date button {
+    background-color: #669900;
+    border: none;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    right: 10px;
+}
+
+.card-text-time {
+    font-size: 16px;
+    color: lightgray;
+}
+
+.card-food {
+    width: 200px;
+    height: 250px;
+    border-radius: 20px;
+}
+
+.card-img-top {
+    border-radius: 15px;
+}
+
+.card-btn-container {
+    position: absolute;
+    left: 20%;
+    top: 65%
+}
+
+.card-btn-container button {
+    background-color: #669900;
+}
+
+.checked-icon-text {
+    color: white;
+    font-size: 42px;
+    margin-left: 15px;
+}
+
+.unchecked-icon-text {
+    color: black;
+    font-size: 42px;
+    margin-left: 15px;
+    margin-top: 0;
+}
+
+.card-text-name {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.proceed-btn {
+    border: none;
+    background-color: #669900;
+    width: 200px;
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+
+.contact-title {
+    color: white;
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.form-cover{
+    background-color: white;
+    padding: 20px;
+    margin-top: 15px;
+}
+
+.form-custom-label {
+    font-size: 12px;
+}
+
+.form-custom-input {
+    border: none;
+    background-color: lightgray;
+    width: 350px;
+}
+
+.send-now-btn {
+    margin-top: 15px;
+    height: 174px;
+    background-color: #669900;
+    border: none;
+    border-radius: 0px;
+}
+
+.footer-item-title {
+    color: #669900;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.footer-item-text {
+    font-size: 14px;
+}
+
+.footer-item-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-item-links li {
+    font-size: 14px;
+}
+
+.copyright-text {
+    font-size: 14px;
+}
